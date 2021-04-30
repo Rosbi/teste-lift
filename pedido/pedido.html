@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Detalhamento de Pedido</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <div class="field-row">
+                <div class="field-column">
+                    <h3>Itens do Pedido:</h3>
+                    <table id="tabela_pedido" class="styled-table">
+                        <tr>
+                            <th>Código</th>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Valor</th>
+                        </tr>
+                    </table>
+                    <p id="valor_total">Total: R$</p>
+                </div>
+
+                <div class="field-column">
+                    <h2 id="header">Informações do pedido </h2>
+                    <table class="styled-table">
+                        <tr>
+                            <th>Dados do Cliente</th>
+                        </tr>
+                        <tr>
+                            <td id="nome_cliente">Nome: </td>
+                        </tr>
+                        <tr>
+                            <td id="cpf_cliente">CPF: </td>
+                        </tr>
+                        <tr>
+                            <td id="email_cliente">e-mail: </td>
+                        </tr>
+                        <tr>
+                            <td id="data_pedido">Data: </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            
+        
+            
+        </div>
+    </div>
+    
+
+    <script src="pedido.js"></script>
+</body>
+</html>
